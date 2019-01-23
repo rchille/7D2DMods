@@ -1,15 +1,7 @@
 <configs>
-	<!-- Add a new Test Block from "stove" -->
-	<append xpath="/blocks">
-		<block name="ElectricStove_stoveElectricTest">
-			<property name="Extends" value="cntStoveOldVer1Closed" param1="Class,LootList"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="Model" value="Appliances/microwave_oven_ver1" param1="main_mesh"/>
-		</block>
-	</append>
 	<!-- Add a new Block from "stove" -->
 	<append xpath="/blocks">
-		<block name="ElectricStove_stoveElectric">
+		<block name="Rchille_stoveElectric">
 			<property name="Class" value="Workstation"/>						<!-- Trying to override parent values -->		
 			<property name="Extends" value="cntStoveOldVer1Closed" />				<!-- Extending from Old Stove (Closed) -->
 			<property name="CreativeMode" value="Player"/>
@@ -42,8 +34,8 @@
 	<append xpath="/blocks/block[@name='cntStoveOldVer1Closed']">
 		<!-- Making this upgradeable to working electric stove -->
 	       <property class="UpgradeBlock">
-        	        <property name="ToBlock" value="ElectricStove_stoveElectric"/>
-        	        <property name="Item" value="ElectricStove_stoveElectricRepairKit"/>				
+        	        <property name="ToBlock" value="Rchille_stoveElectric"/>
+        	        <property name="Item" value="Rchille_stoveElectricRepairKit"/>				
         	        <property name="ItemCount" value="0"/>
         	        <property name="UpgradeHitCount" value="4"/>
        	 	</property>

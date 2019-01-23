@@ -1,7 +1,7 @@
 <configs>
 	<!-- Add a new Block from "stove" -->
 	<append xpath="/blocks">
-		<block name="stoveElectric">
+		<block name="ElectricStove_stoveElectric">
 			<property name="Class" value="Workstation"/>						<!-- Trying to override parent values -->		
 			<property name="Extends" value="cntStoveOldVer1Closed" />				<!-- Extending from Old Stove (Closed) -->
 			<property name="CreativeMode" value="Player"/>
@@ -34,8 +34,8 @@
 	<append xpath="/blocks/block[@name='cntStoveOldVer1Closed']">
 		<!-- Making this upgradeable to working electric stove -->
 	       <property class="UpgradeBlock">
-        	        <property name="ToBlock" value="stoveElectric"/>
-        	        <property name="Item" value="stoveElectricRepairKit"/>				
+        	        <property name="ToBlock" value="ElectricStove_stoveElectric"/>
+        	        <property name="Item" value="ElectricStove_stoveElectricRepairKit"/>				
         	        <property name="ItemCount" value="0"/>
         	        <property name="UpgradeHitCount" value="4"/>
        	 	</property>

@@ -1,7 +1,7 @@
 <configs>
 	<!-- Add a new Item named "stoveElectricSchematic" -->
 	<append xpath="/items">
-		<item name="stoveElectricSchematic">
+		<item name="ElectricStove_stoveElectricSchematic">
         		<property name="Extends" value="schematicMaster"/>
 		        <!-- property name="DescriptionKey" value="schematicMaster2Desc"/> This would have to be added to the Localizations-->
 		        <property name="EconomicValue" value="500"/>

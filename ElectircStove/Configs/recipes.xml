@@ -9,7 +9,7 @@
 			<ingredient name="toolCookingGrill" count="2"/>
 			<ingredient name="stoveElectricSchematic" count="1"/>
 		</recipe>
-		<recipe name="stoveElectricRepairKit" count="1" tags="learnable">
+		<recipe name="stoveElectricRepairKit" count="1" tags="learnable"> 
 		        <ingredient name="resourceMechanicalParts" count="5"/>
 			<ingredient name="resourceRepairKit" count="2"/>
 			<ingredient name="stoveElectricSchematic" count="1"/>

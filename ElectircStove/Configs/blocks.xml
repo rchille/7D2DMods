@@ -32,13 +32,13 @@
 		</block>
 	</append>
 	<append xpath="/blocks/block[@name='cntStoveOldVer1Closed']">
-		<!-- Making this upgradeable to working electric oven -->
+		<!-- Making this upgradeable to working electric stove -->
 	       <property class="UpgradeBlock">
         	        <property name="ToBlock" value="stoveElectric"/>
-        	        <property name="Item" value="stoveElectricRepairKit"/>				<!-- Need to add "oven repair kit / schematic" or somesuch -->
+        	        <property name="Item" value="stoveElectricRepairKit"/>				
         	        <property name="ItemCount" value="0"/>
         	        <property name="UpgradeHitCount" value="4"/>
        	 	</property>
-		<!-- Making this upgradeable to working electric oven -->
+		<!-- Making this upgradeable to working electric stove -->
 	</append>
 </configs>

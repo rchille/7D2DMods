@@ -1,0 +1,18 @@
+<configs>
+	<!-- Add a new Recipes named "stoveElectric" and "stoveElectricRepairKit" -->
+	<append xpath="/recipes">
+		<recipe name="stoveElectric" count="1" tags="learnable">
+		        <ingredient name="resourceForgedIron" count="200"/>
+        		<ingredient name="resourceMechanicalParts" count="20"/>
+			<ingredient name="resourceElectricParts" count="20"/>
+			<ingredient name="resourceSpring" count="2"/>
+			<ingredient name="toolCookingGrill" count="2"/>
+			<ingredient name="stoveElectricSchematic" count="1"/>
+		</recipe>
+		<recipe name="stoveElectricRepairKit" count="1" tags="learnable">
+		        <ingredient name="resourceMechanicalParts" count="5"/>
+			<ingredient name="resourceRepairKit" count="2"/>
+			<ingredient name="stoveElectricSchematic" count="1"/>
+		</recipe>
+	</append>
+</configs>

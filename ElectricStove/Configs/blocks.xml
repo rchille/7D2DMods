@@ -1,4 +1,12 @@
 <configs>
+	<!-- Add a new Test Block from "stove" -->
+	<append xpath="/blocks">
+		<block name="ElectricStove_stoveElectricTest">
+			<property name="Extends" value="cntStoveOldVer1Closed" param1="Class,LootList"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Model" value="Appliances/microwave_oven_ver1" param1="main_mesh"/>
+		</block>
+	</append>
 	<!-- Add a new Block from "stove" -->
 	<append xpath="/blocks">
 		<block name="ElectricStove_stoveElectric">

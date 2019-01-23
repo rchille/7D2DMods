@@ -1,0 +1,26 @@
+<configs>
+	<!-- Adding resourceYuccaFibers (Plant Fiber)  to arrow and bolt recipes" -->
+	<append xpath="/recipes/recipe[@name='ammoArrowStone']">
+	        <ingredient name="resourceYuccaFibers" count="5"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='ammoArrowFlaming']">
+		<ingredient name="resourceYuccaFibers" count="5"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='ammoArrowIron']">
+		<ingredient name="resourceYuccaFibers" count="5"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='ammoArrowSteelAP']">
+		<ingredient name="resourceYuccaFibers" count="5"/>
+	</append>
+	<!-- Skipping ammoCrossbowBoltExploding since it already has 4 ingredients. -->
+	<!-- And Requires Duct Tape, which is the best at attaching things! -->
+	<append xpath="/recipes/recipe[@name='ammoCrossbowBoltStone']">
+	        <ingredient name="resourceYuccaFibers" count="5"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='ammoCrossbowBoltIron']">
+		<ingredient name="resourceYuccaFibers" count="5"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='ammoCrossbowBoltSteelAP']">
+		<ingredient name="resourceYuccaFibers" count="5"/>
+	</append>
+</configs>

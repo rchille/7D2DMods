@@ -14,3 +14,10 @@ It adds the recipes to to craft one from scratch, as well as a repair kit that
 allows you to upgrade a existing POIs stove into working version.
 To craft either the Eletric Stove, or the Electric Stove Repair Kit, you will 
 need to find a Electric Stove Schematic (whereever you would find common books)
+
+Expensive Arrows and Bolts:
+I've always thought that simple plant fiber had been under appreciated in 7D2D.
+This Modlet fixes that a bit by requiring plant fiber to make arrows and bolts. 
+Ever tried to make an arrow without a little twine to attach the arrowhead? 
+Yeah.
+Didn't think so.

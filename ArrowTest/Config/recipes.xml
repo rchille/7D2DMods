@@ -1,0 +1,6 @@
+<configs>
+	<!-- Add a new Recipes named "stoveElectric" and "stoveElectricRepairKit" -->
+	<append xpath="/recipes/recipe[@name='ammoArrowStone']">
+	        <ingredient name="resourceYuccaFibers" count="5"/>
+	</append>
+</configs>

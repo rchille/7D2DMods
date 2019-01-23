@@ -31,4 +31,14 @@
 		        <property name="FilterTags" value="ffurniture,fdecor,fother,felectrical"/>		<!-- Trying to override parent values -->
 		</block>
 	</append>
+	<append xpath="/blocks/block[@name='cntStoveOldVer1Closed']">
+		<!-- Making this upgradeable to working electric oven -->
+	       <property class="UpgradeBlock">
+        	        <property name="ToBlock" value="stoveElectric"/>
+        	        <property name="Item" value="stoveElectricRepairKit"/>				<!-- Need to add "oven repair kit / schematic" or somesuch -->
+        	        <property name="ItemCount" value="0"/>
+        	        <property name="UpgradeHitCount" value="4"/>
+       	 	</property>
+		<!-- Making this upgradeable to working electric oven -->
+	</append>
 </configs>

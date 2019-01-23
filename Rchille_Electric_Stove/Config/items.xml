@@ -7,4 +7,17 @@
 		        <property name="EconomicValue" value="500"/>
 		</item>
 	</append>
+	<!-- Add a new Item named "Rchille_resourceElectricStoveRepairKit" -->
+	<append xpath="/items">
+		<item name="Rchille_resourceElectricStoveRepairKit">
+		        <property name="HoldType" value="45"/>
+		        <property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		        <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		        <property name="Material" value="Msteel"/>
+		        <property name="Stacknumber" value="50"/> 
+		        <property name="EconomicValue" value="186"/>
+		        <property name="Group" value="Resources"/>
+		</item>
+	</append>
+
 </configs>

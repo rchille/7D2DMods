@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Rchille_ElecrticStove" />
+		<Description value="This modlet adds in Electirc stoves that can be run off your power grid" />
+		<Author value="rchille" />
+		<Version value="1.0.0" />
+	</ModInfo>
+</xml>

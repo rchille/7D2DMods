@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Rchille_Ammo_Conversion" />
+		<Description value="This modlet adds recipes (and later stations/items) to convert ammo from one type to another." />
+		<Author value="rchille" />
+		<Version value="1.0.0" />
+	</ModInfo>
+</xml>

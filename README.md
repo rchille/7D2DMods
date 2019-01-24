@@ -7,7 +7,13 @@ folder (create the Mods directory if it does note exist)
 List of Modlets
 ================================
 
-Electric Stove:
+Ammo Conversion:
+Do you love using the crossbow but keep finding all those Steel Arrows? Well
+the Ammo Conversion Modlet is here for you!
+Currently it contains a collection of recipes that allow you convert between
+bolts or arrows of matching types (stone, iron and steel). 
+
+Electric Stove [In Progress]:
 Adds a working Electric Stove (one that needs to be attached to your power grid 
 to cooks things) the functions like a camp fire. 
 It adds the recipes to to craft one from scratch, as well as a repair kit that

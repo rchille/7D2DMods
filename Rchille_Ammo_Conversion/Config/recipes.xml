@@ -1,23 +1,37 @@
 <configs>
-	<!-- Add a new Recipes named "Rchille_stoveElectric" and "Rchille_resourceElectricStoveRepairKit" -->
 	<append xpath="/recipes">
+
+		<!-- 
+		     All bolt <-> arrow conversions require a bolt or arrow of the same type 
+		     (stone/iron/steelAP) as well as 1 wood for a replacement shaft. 
+		-->
+
+	        <!-- Add a new Recipes to convernt crossbow bolts to arrows -->
 		<recipe name="Rchille_ammoArrowStone" count="1">
 			<ingredient name="ammoCrossbowBoltStone" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
 		</recipe>
 		<recipe name="Rchille_ammoArrowIron" count="1">
 			<ingredient name="ammoCrossbowBoltIron" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
 		</recipe>
 		<recipe name="Rchille_ammoArrowSteelAP" count="1">
 			<ingredient name="ammoCrossbowBoltSteelAP" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
 		</recipe>
+
+	        <!-- Add a new Recipes to convernt arrows to crossbow bolts -->
 		<recipe name="Rchille_ammoCrossbowBoltStone" count="1">
 			<ingredient name="ammoArrowStone" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
 		</recipe>
 		<recipe name="Rchille_ammoCrossbowBoltIron" count="1">
 			<ingredient name="ammoArrowIron" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
 		</recipe>
 		<recipe name="Rchille_ammoCrossbowBoltSteelAP" count="1">
 			<ingredient name="ammoArrowSteelAP" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
 		</recipe>
 	</append>
 </configs>

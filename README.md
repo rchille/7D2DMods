@@ -7,11 +7,18 @@ folder (create the Mods directory if it does note exist)
 List of Modlets
 ================================
 
-Ammo Conversion:
-Do you love using the crossbow but keep finding all those Steel Arrows? Well
-the Ammo Conversion Modlet is here for you!
-Currently it contains a collection of recipes that allow you convert between
-bolts or arrows of matching types (stone, iron and steel). 
+Archers Armory
+This Modlet features several tweaks and additions to recipes to make Bow Lover's 
+experience a little more varied.
+First, it makes basic stone/iron/steel arrows and bolts more expensive by 
+requiring plant fiber (to attach the heads and fletching). 
+Second, for cases when you really have to fill your quiver quicky, it adds a \
+set of "bulk create" recipes that make 50 bolts or arrows at a time for all 
+types.
+Last, there are set of conversion recipes that allow you to change a bolt to 
+an arrow or vice versa at the cost of 1 wood (basically to replace the shaft).
+There are plans to add more arrow/bolt types in the future so stay tuned!
+ 
 
 Electric Stove [In Progress]:
 Adds a working Electric Stove (one that needs to be attached to your power grid 
@@ -21,9 +28,3 @@ allows you to upgrade a existing POIs stove into working version.
 To craft either the Eletric Stove, or the Electric Stove Repair Kit, you will 
 need to find a Electric Stove Schematic (whereever you would find common books)
 
-Expensive Arrows and Bolts:
-I've always thought that simple plant fiber had been under appreciated in 7D2D.
-This Modlet fixes that a bit by requiring plant fiber to make arrows and bolts. 
-Ever tried to make an arrow without a little twine to attach the arrowhead? 
-Yeah.
-Didn't think so.

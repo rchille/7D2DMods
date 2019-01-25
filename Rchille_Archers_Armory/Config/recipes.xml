@@ -1,0 +1,138 @@
+<configs>
+
+        <!-- 
+		First things first, going to make the arrows a little more expensive.
+		Not sure about you, but generally I find that having something to attach
+		the arrow head and flteching to shaft makes everything work a bit better
+
+		Adding resourceYuccaFibers (Plant Fiber) to arrow and bolt recipes
+
+		Skipping Exploding Bolts and Flaming Arrows since they already require 
+		4 ingredients and that seems to be the max without futzing with the UI
+
+		Going to modify the existing recipes first since I'm going to turn around
+		and add more recipes with the same name later.
+	-->
+        <append xpath="/recipes/recipe[@name='ammoArrowStone']">
+                <ingredient name="resourceYuccaFibers" count="5"/>
+        </append>
+        <append xpath="/recipes/recipe[@name='ammoArrowFlaming']">
+                <ingredient name="resourceYuccaFibers" count="5"/>
+        </append>
+        <append xpath="/recipes/recipe[@name='ammoArrowIron']">
+                <ingredient name="resourceYuccaFibers" count="5"/>
+        </append>
+        <append xpath="/recipes/recipe[@name='ammoArrowSteelAP']">
+                <ingredient name="resourceYuccaFibers" count="5"/>
+        </append>
+        <append xpath="/recipes/recipe[@name='ammoCrossbowBoltStone']">
+                <ingredient name="resourceYuccaFibers" count="5"/>
+        </append>
+        <append xpath="/recipes/recipe[@name='ammoCrossbowBoltIron']">
+                <ingredient name="resourceYuccaFibers" count="5"/>
+        </append>
+        <append xpath="/recipes/recipe[@name='ammoCrossbowBoltSteelAP']">
+                <ingredient name="resourceYuccaFibers" count="5"/>
+        </append>
+
+	<!-- 
+		Recipes that allow the player to convert back and forth from bolts
+		to arrows at the cost of 1 wood (to replace the shaft)
+	-->
+	<append xpath="/recipes">
+
+	        <!-- Add a new Recipes to convernt crossbow bolts to arrows -->
+		<recipe name="ammoArrowStone" count="1">
+			<ingredient name="ammoCrossbowBoltStone" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+		</recipe>
+		<recipe name="ammoArrowIron" count="1">
+			<ingredient name="ammoCrossbowBoltIron" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+		</recipe>
+		<recipe name="ammoArrowSteelAP" count="1">
+			<ingredient name="ammoCrossbowBoltSteelAP" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+		</recipe>
+
+	        <!-- Add a new Recipes to convernt arrows to crossbow bolts -->
+		<recipe name="ammoCrossbowBoltStone" count="1">
+			<ingredient name="ammoArrowStone" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+		</recipe>
+		<recipe name="ammoCrossbowBoltIron" count="1">
+			<ingredient name="ammoArrowIron" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+		</recipe>
+		<recipe name="ammoCrossbowBoltSteelAP" count="1">
+			<ingredient name="ammoArrowSteelAP" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+		</recipe>
+
+		<!--  
+			Recipes that allow the bulk creation of bolts and arrows (50 each)
+			For when you really need to fill up that quiver...
+		-->
+		
+		<!-- Bulk Arrow Creation -->
+		<recipe name="ammoArrowFlaming" count="50" craft_area="workbench" tags="learnable">
+			<ingredient name="ammoArrowSteelAP" count="50"/>
+        		<ingredient name="resourceGunPowder" count="100"/>
+		        <ingredient name="resourceCloth" count="50"/>
+		        <ingredient name="resourceTallow" count="50"/>
+			<!-- No plant fiber here since we are already up to 4 ingredients-->
+		</recipe>
+
+		<recipe name="ammoArrowIron" count="50">
+		        <ingredient name="resourceArrowHeadIron" count="50"/>
+		        <ingredient name="resourceWood" count="50"/>
+		        <ingredient name="resourceFeather" count="50"/>
+			<ingredient name="resourceYuccaFibers" count="250"/>
+		</recipe>
+
+		<recipe name="ammoArrowSteelAP" count="50">
+		        <ingredient name="resourceArrowHeadSteelAP" count="50"/>
+		        <ingredient name="resourceWood" count="50"/>
+		        <ingredient name="resourceFeather" count="50"/>
+			<ingredient name="resourceYuccaFibers" count="250"/>
+		</recipe>
+
+		<recipe name="ammoArrowStone" count="50">
+		        <ingredient name="resourceRockSmall" count="50"/>
+		        <ingredient name="resourceWood" count="50"/>
+		        <ingredient name="resourceFeather" count="50"/>
+			<ingredient name="resourceYuccaFibers" count="250"/>
+		</recipe>
+
+		<!-- Bulk Bolt Creation-->
+		<recipe name="ammoCrossbowBoltExploding" count="50" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceArrowHeadSteelAP" count="50"/>
+			<ingredient name="resourceGunPowder" count="400"/>
+			<ingredient name="resourceDuctTape" count="50"/>
+			<ingredient name="resourceWood" count="50"/>
+			<ingredient name="resourceFeather" count="50"/>
+			<!-- No plant fiber here since we are already up to 4 ingredients-->
+		</recipe>
+
+		<recipe name="ammoCrossbowBoltIron" count="50">
+			<ingredient name="resourceArrowHeadIron" count="50"/>
+			<ingredient name="resourceWood" count="50"/>
+			<ingredient name="resourceFeather" count="50"/>
+			<ingredient name="resourceYuccaFibers" count="250"/>
+		</recipe>
+
+		<recipe name="ammoCrossbowBoltSteelAP" count="50">
+			<ingredient name="resourceArrowHeadSteelAP" count="50"/>
+			<ingredient name="resourceWood" count="50"/>
+			<ingredient name="resourceFeather" count="50"/>
+			<ingredient name="resourceYuccaFibers" count="250"/>
+		</recipe>
+
+		<recipe name="ammoCrossbowBoltStone" count="50">
+			<ingredient name="resourceRockSmall" count="50"/>
+			<ingredient name="resourceWood" count="50"/>
+			<ingredient name="resourceFeather" count="50"/>
+			<ingredient name="resourceYuccaFibers" count="250"/>
+		</recipe>
+	</append>
+</configs>

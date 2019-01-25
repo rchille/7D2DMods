@@ -1,13 +1,21 @@
+# Rchille's 7D2D Modlets
+
 This is a collection of Modlets that I'm working on to expand/tweak 7Days2Die
+
+##Getting Started
 
 To install any of them, download or clone the repository, pick the out the ones
 that you like, and copy them to youe Mods directory in your 7 Days 2 Die game 
-folder (create the Mods directory if it does note exist)
+folder (create the Mods directory if it does not exist)
 
-List of Modlets
-================================
 
-Archers Armory
+## List of Modlets
+
+* Archer's Armory
+* Electric Stove 
+
+
+###Archers Armory
 This Modlet features several tweaks and additions to recipes to make Bow Lover's 
 experience a little more varied.
 First, it makes basic stone/iron/steel arrows and bolts more expensive by 
@@ -20,7 +28,7 @@ an arrow or vice versa at the cost of 1 wood (basically to replace the shaft).
 There are plans to add more arrow/bolt types in the future so stay tuned!
  
 
-Electric Stove [In Progress]:
+###Electric Stove [In Progress]
 Adds a working Electric Stove (one that needs to be attached to your power grid 
 to cooks things) the functions like a camp fire. 
 It adds the recipes to to craft one from scratch, as well as a repair kit that

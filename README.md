@@ -15,7 +15,7 @@ folder (create the Mods directory if it does not exist)
 * Electric Stove 
 
 
-###Archers Armory
+### Archers Armory
 This Modlet features several tweaks and additions to recipes to make Bow Lover's 
 experience a little more varied.
 First, it makes basic stone/iron/steel arrows and bolts more expensive by 
@@ -28,7 +28,7 @@ an arrow or vice versa at the cost of 1 wood (basically to replace the shaft).
 There are plans to add more arrow/bolt types in the future so stay tuned!
  
 
-###Electric Stove [In Progress]
+### Electric Stove [In Progress]
 Adds a working Electric Stove (one that needs to be attached to your power grid 
 to cooks things) the functions like a camp fire. 
 It adds the recipes to to craft one from scratch, as well as a repair kit that

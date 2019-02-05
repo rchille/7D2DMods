@@ -14,25 +14,25 @@
 		and add more recipes with the same name later.
 	-->
         <append xpath="/recipes/recipe[@name='ammoArrowStone']">
-                <ingredient name="resourceYuccaFibers" count="5"/>
+                <ingredient name="resourceYuccaFibers" count="2"/>
         </append>
         <append xpath="/recipes/recipe[@name='ammoArrowFlaming']">
-                <ingredient name="resourceYuccaFibers" count="5"/>
+                <ingredient name="resourceYuccaFibers" count="2"/>
         </append>
         <append xpath="/recipes/recipe[@name='ammoArrowIron']">
-                <ingredient name="resourceYuccaFibers" count="5"/>
+                <ingredient name="resourceYuccaFibers" count="2"/>
         </append>
         <append xpath="/recipes/recipe[@name='ammoArrowSteelAP']">
-                <ingredient name="resourceYuccaFibers" count="5"/>
+                <ingredient name="resourceYuccaFibers" count="2"/>
         </append>
         <append xpath="/recipes/recipe[@name='ammoCrossbowBoltStone']">
-                <ingredient name="resourceYuccaFibers" count="5"/>
+                <ingredient name="resourceYuccaFibers" count="2"/>
         </append>
         <append xpath="/recipes/recipe[@name='ammoCrossbowBoltIron']">
-                <ingredient name="resourceYuccaFibers" count="5"/>
+                <ingredient name="resourceYuccaFibers" count="2"/>
         </append>
         <append xpath="/recipes/recipe[@name='ammoCrossbowBoltSteelAP']">
-                <ingredient name="resourceYuccaFibers" count="5"/>
+                <ingredient name="resourceYuccaFibers" count="2"/>
         </append>
 
 	<!-- 

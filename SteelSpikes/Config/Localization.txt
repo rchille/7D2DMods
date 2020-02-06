@@ -1,0 +1,4 @@
+Key,Source,Context,Changes,English
+trapSpikesSteelDmg0,blocks,Trap,New,Steel Spikes Trap
+trapSpikesSteelDmg1,blocks,Trap,New,Steel Spikes Trap 1
+trapSpikesSteelDmg2,blocks,Trap,New,Steel Spikes Trap 2

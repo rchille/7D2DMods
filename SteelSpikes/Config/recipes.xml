@@ -1,0 +1,8 @@
+<configs>
+	<append xpath="/recipes" >
+        <recipe name="trapSpikesSteelDmg0" count="1" craft_area="forge" craft_tool="toolForgeCrucible" material_based="true" >
+                <ingredient name="unit_iron" count="200"/>
+                <ingredient name="unit_clay" count="20"/>
+        </recipe>
+	</append>
+</configs>
